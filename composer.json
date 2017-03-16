@@ -1,0 +1,19 @@
+{
+    "name": "droath/robo-docker-sync",
+    "description": "Docker sync for Robo Task Runner",
+    "license": "MIT",
+    "keywords": ["docker", "docker-sync", "robo", "task runner"],
+    "type": "robo-tasks",
+    "require": {
+        "php": ">=5.5.0",
+        "consolidation/robo": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Droath\\RoboDockerSync\\": "./src"
+        }
+    }
+}
